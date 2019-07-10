@@ -13,7 +13,7 @@ class Top extends Component {
                     <li><h5>Kids</h5></li>
                 </ul>
                 <ul id="Top-right">
-                    <li><input type='text' /></li>
+                    <li><input type='text' placeholder="What are you looking for? " onKeyUp={e => this.props.onTextChange(e.target.value)}/></li>
                     <li><i className="fa fa-heart"></i></li>
                     <li><i className="fa fa-user"></i></li>
                     <li><i className="fa fa-shopping-bag"></i></li>
