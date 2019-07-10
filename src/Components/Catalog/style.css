@@ -1,0 +1,17 @@
+#catalog a {
+    font-size: 9px;
+    padding-top: 5px;
+}
+#col {
+    max-width: 150px;
+    width: 100%;
+}
+#catalog {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px 0;
+}
+#catalog ul li {
+    display: flex;
+}

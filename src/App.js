@@ -3,6 +3,7 @@ import Top from './Components/Top';
 import Nav from './Components/Nav';
 import Products from './Components/Product';
 import Header from './Components/Header';
+import Catalog from './Components/Catalog';
 import Data from './Data/products.json'
 import './App.css';
 
@@ -18,13 +19,16 @@ render(){
           }}/>
       <Nav />
       <Header />
-      <ul id="product-container">
-      {
-            Data.items.filter((x) =>
-              x.title.toLowerCase().includes(this.state.filterString.toLowerCase())
-            ).map(x => <Products Data={x}/>)
-      }
-      </ul>
+      <div id='main-content'>
+        <Catalog />
+        <ul id="product-container">
+        {
+              Data.items.filter((x) =>
+                x.title.toLowerCase().includes(this.state.filterString.toLowerCase())
+              ).map(x => <Products Data={x}/>)
+        }
+        </ul>
+      </div>
     </div>
     );
   }}
