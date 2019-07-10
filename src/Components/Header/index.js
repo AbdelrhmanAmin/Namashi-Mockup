@@ -35,7 +35,7 @@ class Header extends Component {
                         <a href="#">◀ Back To Jewellery</a>
                     </li>
                     <li>
-                        <a href="#">### Styles</a>
+                        <h5>### Styles</h5>
                     </li>
                 </ul>
             </header>

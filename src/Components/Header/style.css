@@ -5,7 +5,9 @@ header {
 #breadcrumb {
     display: flex;
     flex-direction: row;
+    align-items: baseline;
 }
+
 /* #breadcrumb li {
     margin: 10px;
 } */
@@ -19,6 +21,9 @@ header {
 }
 #breadcrumb li span {
     font-size: 9px;
+}
+#breadcrumb li h5 {
+    margin-left: 25px;
 }
 #txt-h {
     padding: 20px;
