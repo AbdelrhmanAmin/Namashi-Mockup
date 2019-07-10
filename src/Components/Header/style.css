@@ -1,0 +1,25 @@
+header {
+    border-top: 1px solid #666;
+    padding: 0 0 20px 0;
+}
+#breadcrumb {
+    display: flex;
+    flex-direction: row;
+}
+/* #breadcrumb li {
+    margin: 10px;
+} */
+#breadcrumb li a {
+    font-size: 9px;
+    transition: 0.5s all ease-in-out;
+    padding: 5px;
+}
+#breadcrumb li a:hover {
+    text-decoration: underline;
+}
+#breadcrumb li span {
+    font-size: 9px;
+}
+#txt-h {
+    padding: 20px;
+}
