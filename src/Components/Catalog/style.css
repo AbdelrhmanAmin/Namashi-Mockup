@@ -3,15 +3,58 @@
     padding-top: 5px;
 }
 #col {
-    max-width: 150px;
-    width: 100%;
+    width: 180px;
+}
+#col div {
+    margin: 0 0 10px 0;
+}
+#catalog h6 {
+    margin: 10px 0;
 }
 #catalog {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 25px 0;
+    border-bottom: 1px solid #666;
+    margin: 0 5px;
 }
-#catalog ul li {
+#catalog ul li ,#color ul li a{
     display: flex;
+}
+#color{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px 0;
+    border-bottom: 1px solid #666;
+    margin: 0 5px;
+}
+#color a{
+    font-size: 9px; 
+    padding-top: 10px;
+}
+#size h6 {
+    text-align: start;
+}
+#size ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 170px;
+    margin: 10px 0;
+    grid-gap: 10px;
+}
+#size ul button {
+    padding: 7px 14px;
+    width: 50px;
+    display: block;
+    font-size: 7px;
+    background: none;
+    color: #666;
+    border: 1px solid #666;
+    transition: 0.3s all ease-in-out;
+}
+#size ul button:hover{
+    background: #666;
+    color: white;
 }

@@ -6,6 +6,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    margin: 0 20px;
 }
 #breadcrumb li a {
     font-size: 9px;
