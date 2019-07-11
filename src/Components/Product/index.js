@@ -5,18 +5,13 @@ class Product extends Component {
         let product = this.props.Data;
         return (
                <li id='product'>
-                    <div id='wish-btn'>
-                    <a id='wish' title="add to wish-list"><i class="fa fa-heart fa-2x"></i></a>
-                    </div>
                     <div id='img-container'>
                         <img src={product.image} />
                     </div>
                     <div id='context'>
-                        <div id="text">
+                        <p id="brand">Seventy Five</p>
                         <p id='title'>{product.title}</p>
-                        <p id='price'>{product.price}$</p>
-                        </div>
-                        <div id="add" title="add to cart"><i class="fa fa-plus fa-2x"></i></div>
+                        <p id='price'>{Math.floor(product.price)} AED</p>
                     </div>
                 </li>
         );

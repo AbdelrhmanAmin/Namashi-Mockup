@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:900|Montserrat:300|Work+Sans:300&display=swap');
 *{
     padding: 0;
     box-sizing: border-box;
@@ -11,64 +12,47 @@ a {
     display: grid;
     list-style-type: none;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 25px 0;
+    padding: 5px 10px;
 }
 #product {
     margin: 10px;
-    border: 1px solid #666;
-    border-bottom: 0;
-}
-#wish-btn {
-    position: absolute;
-    z-index: 1;
-    margin-top: 15px;
-    margin-left: 15px;
-}
-#wish-btn #wish{
-    margin-right: 210px;
-    color: white;
-    transition: 0.4s all ease-in-out;
-    opacity: 0.5;
-}
-#wish-btn #wish:hover{
-    opacity: 1;
 }
 #img-container img{
-    /* max-width: 300px; */
+    max-width: 300px;
+    min-height: 400px;
     width: 100%;
+    height: 100%;
 }
 #context {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    font-size: 9px;
-    padding: 5px;
-    background-color: rgb(245, 245, 245);
-    border-bottom: 1px solid #666;
-    margin-top: -5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+    align-items: center;
+    text-transform: uppercase;
 }
-#text {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-}
-#add {
-    align-self: center;
-}
-#add i{
-    transition: 0.4s all ease-in-out;
-    opacity: 0.5;
-    color: black;
-}
-#add i:hover{
-    opacity: 1;
-}
-#context #title {
-    text-transform: capitalize;
-    font-weight: 400;
-    color: #666;
-}
-#context #price {
-    text-transform: capitalize;
+#brand {
+    text-transform: uppercase;
     font-weight: 700;
+    border-bottom: 1px solid #bdbdbd;
+    margin-bottom: 5px;
+    padding-bottom: 1px;
+    color: #000;
+    font-size: 9px;
+    font-family: 'Lato', sans-serif;
+    text-align:left;
+}
+#title {
+    font-weight: 900;
+    color: #666;
+    text-transform: capitalize;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+#price {
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 9px;
 }
