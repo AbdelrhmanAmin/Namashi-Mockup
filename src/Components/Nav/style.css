@@ -6,9 +6,10 @@ a{
 #nav-list {
     display: flex;
     flex-direction: row;
+    padding: 0 30px;
 }
 #nav-list li {
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 #menu {
     background: black;
@@ -21,9 +22,11 @@ a{
 #naver {
     transition: 0.2s all ease-in-out;
     color: #000;
-    font-size: 11px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
     text-align: left;
-    padding: 8px 10px;
+    padding: 10px 5px;
     line-height: 1;
 }
 #nav-bg {

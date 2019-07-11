@@ -3,7 +3,7 @@
     padding-top: 5px;
 }
 #col {
-    width: 150px;
+    width: 170px;
 }
 #col div {
     margin: 0 0 10px 0;
@@ -39,8 +39,9 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 5px 0 15px 0;
-    border-bottom: 1px solid #bdbdbd;
     margin: 0 5px;
+    overflow-y: scroll;
+    max-height: 200px;
 }
 #color a{
     font-size: 10px; 
@@ -48,6 +49,10 @@
 }
 #size h6 {
     text-align: start;
+}
+#size {
+    border-top: 1px solid #bdbdbd;
+    padding-top: 10px;
 }
 #size ul{
     display: grid;

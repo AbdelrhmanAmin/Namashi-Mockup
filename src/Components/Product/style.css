@@ -12,10 +12,9 @@ a {
     display: grid;
     list-style-type: none;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 5px 10px;
 }
 #product {
-    margin: 10px;
+    margin: 10px 0 0 15px;
 }
 #img-container img{
     max-width: 300px;

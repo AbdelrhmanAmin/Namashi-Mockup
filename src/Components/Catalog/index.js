@@ -40,6 +40,47 @@ class Catalog extends Component {
                             <input type="checkbox" name="" id=""/>
                             <span>Orange</span>
                             </a></li>
+                            <li><a href='#'>
+                            <input type="checkbox" name="" id=""/>
+                            <span>Orange</span>
+                            </a></li>
+                            <li><a href='#'>
+                            <input type="checkbox" name="" id=""/>
+                            <span>Orange</span>
+                            </a></li>
+                            <li><a href='#'>
+                            <input type="checkbox" name="" id=""/>
+                            <span>Orange</span>
+                            </a></li>
+                            <li><a href='#'>
+                            <input type="checkbox" name="" id=""/>
+                            <span>Orange</span>
+                            </a></li>
+                            <li><a href='#'>
+                            <input type="checkbox" name="" id=""/>
+                            <span>Orange</span>
+                            </a></li>
+                            <li><a href='#'>
+                            <input type="checkbox" name="" id=""/>
+                            <span>Orange</span>
+                            </a></li>
+                            <li><a href='#'>
+                            <input type="checkbox" name="" id=""/>
+                            <span>Orange</span>
+                            </a></li>
+                            <li><a href='#'>
+                            <input type="checkbox" name="" id=""/>
+                            <span>Orange</span>
+                            </a></li>
+                            <li><a href='#'>
+                            <input type="checkbox" name="" id=""/>
+                            <span>Orange</span>
+                            </a></li>
+                            <li><a href='#'>
+                            <input type="checkbox" name="" id=""/>
+                            <span>Orange</span>
+                            </a></li>
+                            
                     </ul>
                 </div>
                 <div id="size">
