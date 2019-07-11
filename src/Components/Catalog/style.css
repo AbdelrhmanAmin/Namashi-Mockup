@@ -1,5 +1,5 @@
 #catalog a {
-    font-size: 9px;
+    font-size: 10px;
     padding-top: 5px;
 }
 #col {
@@ -9,7 +9,6 @@
     margin: 0 0 10px 0;
 }
 #col div a:hover {
-    text-decoration: underline;
     color: #666;
 }
 #catalog h6 {
@@ -23,6 +22,15 @@
     border-bottom: 1px solid #bdbdbd;
     margin: 0 5px;
 }
+#catalog ul li a {
+    display: flex;
+    align-items: center;
+}
+#catalog ul li a i {
+    color: black;
+    margin-right: 5px;
+    text-decoration: none;
+}
 #catalog ul li ,#color ul li a{
     display: flex;
 }
@@ -35,7 +43,7 @@
     margin: 0 5px;
 }
 #color a{
-    font-size: 9px; 
+    font-size: 10px; 
     padding-top: 10px;
 }
 #size h6 {

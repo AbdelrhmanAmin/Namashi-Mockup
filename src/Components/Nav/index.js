@@ -6,7 +6,7 @@ class Nav extends Component {
             <div>
                 <ul id='nav-list'>
                     <li id='nav-1'>
-                    <strong id='naver'>Nav 1</strong>
+                    <strong id='naver'>New arrivals</strong>
                     <div id='nav-bg'>
                         <ul>
                             <li>
@@ -28,7 +28,7 @@ class Nav extends Component {
                     </div>
                     </li>
                     <li id='nav-2'>
-                    <strong id='naver'>Nav 2</strong>
+                    <strong id='naver'>Clothing</strong>
                     <div id='nav-bg'>
                         <ul>
                         <li>
@@ -50,7 +50,7 @@ class Nav extends Component {
                     </div>
                     </li>
                     <li id='nav-3'>
-                    <strong id='naver'>Nav 3</strong>
+                    <strong id='naver'>Shoes</strong>
                     <div id='nav-bg'>
                         <ul>
                         <li>
@@ -72,7 +72,7 @@ class Nav extends Component {
                     </div>
                     </li>
                     <li id='nav-4'>
-                    <strong id='naver'>Nav 4</strong>
+                    <strong id='naver'>Bags</strong>
                     <div id='nav-bg'>
                         <ul>
                         <li>
@@ -94,7 +94,7 @@ class Nav extends Component {
                     </div>
                     </li>
                     <li id='nav-5'>
-                    <strong id='naver'>Nav 5</strong>
+                    <strong id='naver'>Grooming</strong>
                     <div id='nav-bg'>
                         <ul>
                         <li>

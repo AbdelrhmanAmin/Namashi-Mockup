@@ -25,7 +25,7 @@ i {
     border-right: 1px solid #525050;
     padding: 0 30px;
     height: 100%;
-    font-size: 16px;
+    font-size: 15px;
     color: white;
     display: flex;
     align-items: center;
@@ -44,9 +44,10 @@ i {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    margin: 0 15px;
 }
 #Top-right li{
-    margin: 0 15px;
+    margin: 0 5px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -57,9 +58,8 @@ i {
     border: 1px solid #bdbdbd50;
     background-color: #fff;
     font-size: 12px;
-    min-width: 300px;
+    min-width: 400px;
     opacity: 1;
     padding: 0 30px 0 11px;
     border-radius: 15px;
-    margin-right: 10px;
 }

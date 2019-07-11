@@ -8,11 +8,11 @@ class Catalog extends Component {
                 <div id="catalog">
                     <h6>Bracelets</h6>
                     <ul>
-                        <li><a href='#'>➤ Bracelets</a></li>
-                        <li><a href='#'>➤ Rings</a></li>
-                        <li><a href='#'>➤ Gloves</a></li>
-                        <li><a href='#'>➤ Sets</a></li>
-                        <li><a href='#'>➤ Necklaces</a></li>
+                        <li><a href='#'><i class="fa fa-caret-right fa-2x"></i> Bracelets</a></li>
+                        <li><a href='#'><i class="fa fa-caret-right fa-2x"></i> Rings</a></li>
+                        <li><a href='#'><i class="fa fa-caret-right fa-2x"></i> Gloves</a></li>
+                        <li><a href='#'><i class="fa fa-caret-right fa-2x"></i> Sets</a></li>
+                        <li><a href='#'><i class="fa fa-caret-right fa-2x"></i> Necklaces</a></li>
                     </ul>
                 </div>
                 <div id="color">

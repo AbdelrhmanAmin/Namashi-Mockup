@@ -3,7 +3,7 @@
 }
 #main-content {
   margin: 0 25px;
-  border-top: 1px solid #666;
+  border-top: 1px solid #bdbdbd;
   display: grid;
   grid-template-columns: auto 1fr;
 }

@@ -1,6 +1,6 @@
 header {
-    border-top: 1px solid #666;
-    padding: 0 0 20px 0;
+    border-top: 1px solid #bdbdbd;
+    padding: 0 0 10px 0;
 }
 #breadcrumb {
     display: flex;
@@ -9,20 +9,32 @@ header {
     margin: 0 20px;
 }
 #breadcrumb li a {
-    font-size: 9px;
-    transition: 0.5s all ease-in-out;
+    font-size: 10px;
     padding: 5px;
+    text-align: center;
+    align-self: baseline;
+}
+#special a{
+    display: flex;
+    align-items: center;
+}
+#special a i{
+    color: black;
+    margin-right: 5px;
 }
 #breadcrumb li a:hover {
-    text-decoration: underline;
+    color: #666;
 }
 #breadcrumb li span {
     font-size: 9px;
 }
-#breadcrumb li h5 {
+#breadcrumb li p {
     margin-left: 25px;
-    font-size: 9px;
+    font-size: 13px;
+    font-weight: 400;
 }
 #txt-h {
-    padding: 20px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
 }
