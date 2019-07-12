@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import './style.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 class Top extends Component {
     state = {  
-        scroll: ''
+        scroll: '',
+        on1: false,
+        on2: false,
     }
     handleScroll = () => {
         this.setState({scroll: window.scrollY});
@@ -18,6 +22,16 @@ class Top extends Component {
             document.body.style.paddingTop = `${this.state.height}px` :
             document.body.style.paddingTop = 0;
     }
+    toggler1 =  () => {
+        this.setState({
+            on1: !this.state.on
+        })
+    }
+    toggler2 =  () => {
+        this.setState({
+            on2: !this.state.on
+        })
+    }
     render() {
         return (
             <nav id='Top-con' className={this.state.scroll > this.state.top ? "fixed-nav" : ""}>
@@ -28,10 +42,14 @@ class Top extends Component {
                     <li><h5>Kids</h5></li>
                 </ul>
                 <ul id="Top-right">
-                    <li><input type='text' placeholder="What are you looking for? " onKeyUp={e => this.props.onTextChange(e.target.value)}/></li>
-                    <li><i className="fa fa-heart"></i></li>
-                    <li><i className="fa fa-user"></i></li>
-                    <li><i className="fa fa-shopping-bag"></i></li>
+                    <li><input type='text' placeholder="What are you looking for? " onKeyUp={e => this.props.onTextChange(e.target.value)}/></li>   
+                    <li onClick={this.toggler1}> {
+                        this.state.on1 ? <FontAwesomeIcon icon={['fas','heart']} size='lg'/> : <FontAwesomeIcon icon={['far','heart']} size='lg'/>
+                    }</li>
+                    <li onClick={this.toggler2}> {
+                        this.state.on2 ? <FontAwesomeIcon icon={['fas','user']} size='lg'/> : <FontAwesomeIcon icon={['far','user']} size='lg'/>
+                    }</li>
+                    <li> <FontAwesomeIcon icon={['fas','cart-arrow-down']} size='lg'/></li>
                 </ul>
             </nav>
         );

@@ -61,11 +61,13 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    color: #fff;
 }
 #Top-right input {
-    height: 27px;
+    height: 30px;
     border: 1px solid #bdbdbd50;
     background-color: #fff;
+    color:white;
     font-size: 12px;
     min-width: 400px;
     opacity: 1;
