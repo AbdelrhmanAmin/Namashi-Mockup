@@ -2,10 +2,25 @@ import React, { Component } from 'react';
 import './style.css';
 
 class Top extends Component {
-    // state = {  }
+    state = {  
+        scroll: ''
+    }
+    handleScroll = () => {
+        this.setState({scroll: window.scrollY});
+    }
+    componentDidMount = () => {
+        const el = document.querySelector('nav');
+        this.setState({top: el.offsetTop, height: el.offsetHeight});
+        window.addEventListener('scroll', this.handleScroll);
+    }
+    componentDidUpdate = () => {
+        this.state.scroll > this.state.top ? 
+            document.body.style.paddingTop = `${this.state.height}px` :
+            document.body.style.paddingTop = 0;
+    }
     render() {
         return (
-            <div id='Top-con'>
+            <nav id='Top-con' className={this.state.scroll > this.state.top ? "fixed-nav" : ""}>
                 <ul id="Top-left">
                     <li><h1 id='Logo'>نمشي</h1></li>
                     <li><h5>Women</h5></li>
@@ -18,7 +33,7 @@ class Top extends Component {
                     <li><i className="fa fa-user"></i></li>
                     <li><i className="fa fa-shopping-bag"></i></li>
                 </ul>
-            </div>
+            </nav>
         );
     }
 }

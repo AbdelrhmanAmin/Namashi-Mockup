@@ -29,8 +29,6 @@ class Header extends Component {
                 </ul>
                 <div id="txt-h">
                     <h3>MEN'S BRACELETS 2019</h3>
-                    <p>مش كفاية كده ياشباب ؟</p>
-                    <p>أنا شايف التصميم حلو اوي كده :D</p>
                 </div>
                 <ul id='breadcrumb'>
                     <li id='special'>
