@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './style.css';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 class Header extends Component {
     // state = {  }
     render() {
@@ -32,7 +32,7 @@ class Header extends Component {
                 </div>
                 <ul id='breadcrumb'>
                     <li id='special'>
-                        <a href="#"><i class="fa fa-caret-left fa-2x"></i> Back To Jewellery</a>
+                        <a href="#"><FontAwesomeIcon icon={['fa','caret-left']} size='lg' className='icons'/> Back To Jewellery</a>
                     </li>
                     <li>
                         <p>### styles</p>

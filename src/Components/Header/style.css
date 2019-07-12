@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Titillium+Web:700&display=swap');
+
 header {
     border-top: 1px solid #bdbdbd;
     padding: 0 0 10px 0;
@@ -24,6 +26,7 @@ header {
 }
 #breadcrumb li a:hover {
     color: #666;
+    text-decoration: underline;
 }
 #breadcrumb li span {
     font-size: 9px;
@@ -35,6 +38,6 @@ header {
 }
 #txt-h {
     padding: 10px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 20px;
 }

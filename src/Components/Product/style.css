@@ -38,16 +38,16 @@ a {
     margin-bottom: 5px;
     padding-bottom: 1px;
     color: #000;
-    font-size: 9px;
+    font-size: 10px;
     font-family: 'Lato', sans-serif;
     text-align:left;
 }
 #title {
-    font-weight: 900;
-    color: #666;
+    font-weight: 500;
+    color: #888;
     text-transform: capitalize;
     font-size: 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 #price {
     color: #000;

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './style.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 class Catalog extends Component {
     // state = {  }
     render() {
@@ -8,11 +10,11 @@ class Catalog extends Component {
                 <div id="catalog">
                     <h6>Bracelets</h6>
                     <ul>
-                        <li><a href='#'><i class="fa fa-caret-right fa-2x"></i> Bracelets</a></li>
-                        <li><a href='#'><i class="fa fa-caret-right fa-2x"></i> Rings</a></li>
-                        <li><a href='#'><i class="fa fa-caret-right fa-2x"></i> Gloves</a></li>
-                        <li><a href='#'><i class="fa fa-caret-right fa-2x"></i> Sets</a></li>
-                        <li><a href='#'><i class="fa fa-caret-right fa-2x"></i> Necklaces</a></li>
+                        <li><a href='#'><FontAwesomeIcon icon={['fa','caret-right']} size='lg' className='icons'/> Bracelets</a></li>
+                        <li><a href='#'><FontAwesomeIcon icon={['fa','caret-right']} size='lg' className='icons'/> Rings</a></li>
+                        <li><a href='#'><FontAwesomeIcon icon={['fa','caret-right']} size='lg' className='icons'/> Gloves</a></li>
+                        <li><a href='#'><FontAwesomeIcon icon={['fa','caret-right']} size='lg' className='icons'/> Sets</a></li>
+                        <li><a href='#'><FontAwesomeIcon icon={['fa','caret-right']} size='lg' className='icons'/> Necklaces</a></li>
                     </ul>
                 </div>
                 <div id="color">
