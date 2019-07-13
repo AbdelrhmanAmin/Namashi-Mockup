@@ -14,7 +14,7 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
 }
 #product {
-    margin: 10px 0 0 15px;
+    margin: 10px 0 0 10px;
 }
 #img-container img{
     max-width: 300px;
@@ -35,8 +35,8 @@ a {
     text-transform: uppercase;
     font-weight: 700;
     border-bottom: 1px solid #bdbdbd;
-    margin-bottom: 5px;
-    padding-bottom: 1px;
+    margin-bottom: 1px;
+    padding-bottom: 3px;
     color: #000;
     font-size: 10px;
     font-family: 'Lato', sans-serif;
@@ -44,14 +44,14 @@ a {
 }
 #title {
     font-weight: 500;
-    color: #888;
+    color: #666666;
     text-transform: capitalize;
-    font-size: 10px;
+    font-size: 11px;
     font-family: 'Nunito', sans-serif;
 }
 #price {
     color: #000;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
-    font-size: 9px;
+    font-size: 10px;
 }

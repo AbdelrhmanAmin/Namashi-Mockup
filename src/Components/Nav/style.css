@@ -8,9 +8,16 @@ a{
     display: flex;
     flex-direction: row;
     padding: 0 30px;
+    border-top: 1px solid #bdbdbd50;
+    border-bottom: 1px solid #bdbdbd50;
 }
 #nav-list li {
-    padding: 10px 10px;
+    padding: 8px 4px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 #menu {
     background: black;

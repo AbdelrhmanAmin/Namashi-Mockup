@@ -23,24 +23,24 @@ class Top extends Component {
             document.body.style.paddingTop = 0;
     }
     toggler1 =  () => {
-        this.setState({
-            on1: !this.state.on
-        })
+        this.setState(prevState => ({
+            on1: !prevState.on1
+          }));
     }
     toggler2 =  () => {
-        this.setState({
-            on2: !this.state.on
-        })
+        this.setState(prevState => ({
+            on2: !prevState.on2
+          }));
     }
     render() {
-        let iconer1 = this.state.on1 ? <FontAwesomeIcon icon={['fas','heart']} size='lg'/> : <FontAwesomeIcon icon={['far','heart']} size='lg'/>;
-        let iconer2 = this.state.on2 ? <FontAwesomeIcon icon={['fas','user']} size='lg'/> : <FontAwesomeIcon icon={['far','user']} size='lg'/>;
+        let iconer1 = this.state.on1 ? (<FontAwesomeIcon icon={['fas','heart']} size='lg'/>) : (<FontAwesomeIcon icon={['far','heart']} size='lg'/>);
+        let iconer2 = this.state.on2 ? (<FontAwesomeIcon icon={['fas','user']} size='lg'/>): (<FontAwesomeIcon icon={['far','user']} size='lg'/>);
         return (
             <nav id='Top-con' className={this.state.scroll > this.state.top ? "fixed-nav" : ""}>
                 <ul id="Top-left">
                     <li><h1 id='Logo'>نمشي</h1></li>
                     <li><h5>Women</h5></li>
-                    <li><h5>Men</h5></li>
+                    <li id='selected'><h5>Men</h5></li>
                     <li><h5>Kids</h5></li>
                 </ul>
                 <ul id="Top-right">

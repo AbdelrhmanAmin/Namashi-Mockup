@@ -6,4 +6,5 @@
   border-top: 1px solid #bdbdbd;
   display: grid;
   grid-template-columns: auto 1fr;
+  padding-top: 10px;
 }

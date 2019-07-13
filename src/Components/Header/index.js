@@ -28,14 +28,14 @@ class Header extends Component {
                     </li>
                 </ul>
                 <div id="txt-h">
-                    <h3>MEN'S BRACELETS 2019</h3>
+                    <h4>MEN'S BRACELETS 2019</h4>
                 </div>
                 <ul id='breadcrumb'>
                     <li id='special'>
                         <a href="#"><FontAwesomeIcon icon={['fa','caret-left']} size='lg' className='icons'/> Back To Jewellery</a>
                     </li>
                     <li>
-                        <p>### styles</p>
+                        <p>348 styles</p>
                     </li>
                 </ul>
             </header>

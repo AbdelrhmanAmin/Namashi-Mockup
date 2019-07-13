@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito|Titillium+Web:700&display=swap');
 
 header {
-    border-top: 1px solid #bdbdbd;
     padding: 0 0 10px 0;
 }
 #breadcrumb {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
-    margin: 0 20px;
+    align-items: center;
+    margin: 5px 20px;
 }
 #breadcrumb li a {
     font-size: 10px;
@@ -33,11 +32,11 @@ header {
 }
 #breadcrumb li p {
     margin-left: 25px;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
 }
 #txt-h {
-    padding: 10px;
+    margin: 10px 0 5px;
     font-family: 'Nunito', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
 }

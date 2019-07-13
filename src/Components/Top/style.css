@@ -19,6 +19,8 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: black;
+    margin: 0 auto;
+    height: 55px;
 }
 .fixed-nav {
     position: fixed;
@@ -34,16 +36,27 @@ nav {
     border-right: 1px solid #525050;
     padding: 10px 30px;
     height: 100%;
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 500;
     color: white;
     display: flex;
     align-items: center;
     text-align: center;
     transition: 0.5s all ease-in-out;
+    font-family: 'Nunito', sans-serif;
+}
+#selected {
+    background-color: white;
+}
+#selected h5{
+    color: black;
 }
 #Top-left li:hover {
     background: #bdbdbd50;
     color: #fff;
+}
+#selected:hover{
+    background-color: white !important;
 }
 #Top-left #Logo {
     font-family: 'Cairo', sans-serif;
@@ -64,12 +77,12 @@ nav {
     color: #fff;
 }
 #Top-right input {
-    height: 30px;
+    height: 26px;
     border: 1px solid #bdbdbd50;
     background-color: #fff;
-    color:white;
+    color: white;
     font-size: 12px;
-    min-width: 400px;
+    min-width: 450px;
     opacity: 1;
     padding: 0 30px 0 11px;
     border-radius: 15px;

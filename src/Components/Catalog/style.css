@@ -13,6 +13,7 @@
 }
 #catalog h6 {
     margin: 10px 0;
+    text-transform: uppercase;
 }
 #catalog {
     display: flex;
@@ -45,6 +46,9 @@
 }
 #catalog a:hover ,#color a:hover {
     text-decoration: underline;
+}
+#color ul li input {
+    margin-right: 10px;
 }
 #color a{
     font-size: 10px; 
