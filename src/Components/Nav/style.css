@@ -12,12 +12,7 @@ a{
     border-bottom: 1px solid #bdbdbd50;
 }
 #nav-list li {
-    padding: 8px 4px;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    padding: 11px 4px;
 }
 #menu {
     background: black;
@@ -34,7 +29,7 @@ a{
     font-family: 'Nunito', sans-serif;
     text-align: left;
     padding: 7px 5px;
-    /* line-height: 1; */
+    line-height: 1;
 }
 .icons {
     margin-right: 10px;
