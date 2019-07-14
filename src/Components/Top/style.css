@@ -57,6 +57,12 @@ nav {
 #selected {
     background-color: white;
 }
+.bef{
+    color: #666666;
+}
+.aft{
+    color: white;
+}
 #selected h5{
     color: black;
 }

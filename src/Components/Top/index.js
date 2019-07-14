@@ -34,8 +34,8 @@ class Top extends Component {
           }));
     }
     render() {
-        let iconer1 = this.state.on1 ? (<FontAwesomeIcon icon={['fas','heart']} size='lg' />) : (<FontAwesomeIcon icon={['far','heart']} size='lg' />);
-        let iconer2 = this.state.on2 ? (<FontAwesomeIcon icon={['fas','user']} size='lg' />): (<FontAwesomeIcon icon={['far','user']} size='lg' />);
+        let iconer1 = this.state.on1 ? (<FontAwesomeIcon icon={['fas','heart']} size='lg' className='aft'/>) : (<FontAwesomeIcon icon={['far','heart']} size='lg' className='bef'/>);
+        let iconer2 = this.state.on2 ? (<FontAwesomeIcon icon={['fas','user']} size='lg' className='aft'/>): (<FontAwesomeIcon icon={['far','user']} size='lg' className='bef'/>);
         return (
             <nav id='Top-con' className={this.state.scroll > this.state.top ? "fixed-nav" : ""}>
                 <ul id="Top-left">
@@ -48,7 +48,7 @@ class Top extends Component {
                     <li><input type='text' placeholder="What are you looking for? " onKeyUp={e => this.props.onTextChange(e.target.value)}/></li>   
                     <li onClick={this.toggler1}> {iconer1}</li>
                     <li onClick={this.toggler2}> {iconer2}</li>
-                    <li> <FontAwesomeIcon icon={['fas','cart-arrow-down']} size='lg'/></li>
+                    <li> <FontAwesomeIcon icon={['fas','cart-arrow-down']} size='lg' className='bef'/></li>
                 </ul>
             </nav>
         );
