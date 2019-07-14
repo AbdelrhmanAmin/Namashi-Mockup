@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './style.css';
+import Logo from './logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -33,13 +34,13 @@ class Top extends Component {
           }));
     }
     render() {
-        let iconer1 = this.state.on1 ? (<FontAwesomeIcon icon={['fas','heart']} size='lg'/>) : (<FontAwesomeIcon icon={['far','heart']} size='lg'/>);
-        let iconer2 = this.state.on2 ? (<FontAwesomeIcon icon={['fas','user']} size='lg'/>): (<FontAwesomeIcon icon={['far','user']} size='lg'/>);
+        let iconer1 = this.state.on1 ? (<FontAwesomeIcon icon={['fas','heart']} size='lg' />) : (<FontAwesomeIcon icon={['far','heart']} size='lg' />);
+        let iconer2 = this.state.on2 ? (<FontAwesomeIcon icon={['fas','user']} size='lg' />): (<FontAwesomeIcon icon={['far','user']} size='lg' />);
         return (
             <nav id='Top-con' className={this.state.scroll > this.state.top ? "fixed-nav" : ""}>
                 <ul id="Top-left">
-                    <li><h1 id='Logo'>نمشي</h1></li>
-                    <li><h5>Women</h5></li>
+                    <li id='logo-con'><img src={Logo} alt="" id="Logo"/></li>
+                    <li><h5 className='women'>Women</h5></li>
                     <li id='selected'><h5>Men</h5></li>
                     <li><h5>Kids</h5></li>
                 </ul>

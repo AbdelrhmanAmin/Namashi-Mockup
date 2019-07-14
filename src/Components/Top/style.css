@@ -15,6 +15,14 @@ nav {
   margin: 0;
   top: 0;
 }
+#logo-con{
+    padding: 10px 15px 10px 30px !important;
+}
+#Logo {
+    width: 80px;
+    height: 40px;
+    margin-left: 10px;
+}
 #Top-con {
     display: flex;
     justify-content: space-between;
@@ -34,9 +42,9 @@ nav {
 }
 #Top-left li{
     border-right: 1px solid #525050;
-    padding: 10px 30px;
+    padding: 10px 31px;
     height: 100%;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     color: white;
     display: flex;
@@ -44,6 +52,7 @@ nav {
     text-align: center;
     transition: 0.5s all ease-in-out;
     font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.7px;
 }
 #selected {
     background-color: white;
@@ -54,6 +63,9 @@ nav {
 #Top-left li:hover {
     background: #bdbdbd50;
     color: #fff;
+}
+#logo-con:hover{
+    background: black !important;
 }
 #selected:hover{
     background-color: white !important;
@@ -74,11 +86,11 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: rgb(172, 172, 172);
 }
 #Top-right input {
     height: 26px;
-    border: 1px solid #bdbdbd50;
+    border: 1px solid #dfc3c350;
     background-color: #fff;
     color: white;
     font-size: 12px;
@@ -86,4 +98,7 @@ nav {
     opacity: 1;
     padding: 0 30px 0 11px;
     border-radius: 15px;
+}
+.women {
+    margin: 0 -9px;
 }

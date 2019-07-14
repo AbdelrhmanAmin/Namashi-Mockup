@@ -16,7 +16,7 @@ class Header extends Component {
                         <span>/&nbsp;</span>
                     </li>
                     <li>
-                        <a href='#'>Accessory</a>
+                        <a href='#'>Accessories</a>
                         <span>/&nbsp; </span>
                     </li>
                     <li>
@@ -24,7 +24,7 @@ class Header extends Component {
                         <span>/&nbsp;</span>
                     </li>
                     <li>
-                        <a href='#'>Bracelets</a>
+                        <a className='selected' href='#'>Bracelets</a>
                     </li>
                 </ul>
                 <div id="txt-h">
